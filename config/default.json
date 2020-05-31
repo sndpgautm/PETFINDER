@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://san123:san123@petfinder-gfgrt.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettokenforpetfinder"
+}
