@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { check, validationResult } = require('express-validator');
 const auth = require('../../middleware/auth');
+const imageUpload = require('../../middleware/imageUpload');
 
 const Animal = require('../../models/Animal');
 const Organization = require('../../models/Organization');
@@ -11,6 +12,7 @@ const Organization = require('../../models/Organization');
 // @access   Private
 router.post(
   '/',
+  imageUpload.upload,
   [auth, [check('species', 'Species is required').not().isEmpty()]],
   async (req, res) => {
     const errors = validationResult(req);
@@ -43,7 +45,7 @@ router.post(
         color: req.body.color,
         name: req.body.name,
         description: req.body.description,
-        image: req.body.image,
+        image: req.file.filename,
       });
 
       const animal = await newAnimal.save();

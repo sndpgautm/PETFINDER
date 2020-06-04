@@ -10,6 +10,9 @@ connectDB();
 app.use(express.json({ extended: false }));
 app.get('/', (req, res) => res.send('API running'));
 
+// Static Folder
+app.use(express.static('./client/public'));
+
 // Define Routes
 app.use('/api/organizations', require('./routes/api/organizations'));
 app.use('/api/auth', require('./routes/api/auth'));
