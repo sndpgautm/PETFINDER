@@ -10,7 +10,11 @@ const AnimalItem = ({
   animal: { _id, organization, name, species, breed, age, image },
 }) => (
   <div className='animal bg-light'>
-    <img className='round-img' src={'./uploads/' + image} alt='' />
+    <img
+      className='round-img'
+      src={process.env.PUBLIC_URL + '/build/uploads/' + image}
+      alt=''
+    />
     <div>
       <h2>{name}</h2>
       <p>
