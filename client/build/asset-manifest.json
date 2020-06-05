@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59e803e4.chunk.css",
+    "main.js": "/static/js/main.ae79bf80.chunk.js",
+    "main.js.map": "/static/js/main.ae79bf80.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8c40394c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8c40394c.js.map",
+    "static/js/2.95cc4cbd.chunk.js": "/static/js/2.95cc4cbd.chunk.js",
+    "static/js/2.95cc4cbd.chunk.js.map": "/static/js/2.95cc4cbd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1d9bc3b6440132283073dee43dce976d.js": "/precache-manifest.1d9bc3b6440132283073dee43dce976d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.59e803e4.chunk.css.map": "/static/css/main.59e803e4.chunk.css.map",
+    "static/js/2.95cc4cbd.chunk.js.LICENSE.txt": "/static/js/2.95cc4cbd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/dog-hero.288e0963.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c40394c.js",
+    "static/js/2.95cc4cbd.chunk.js",
+    "static/css/main.59e803e4.chunk.css",
+    "static/js/main.ae79bf80.chunk.js"
+  ]
+}
