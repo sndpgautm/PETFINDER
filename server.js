@@ -24,6 +24,9 @@ app.use((req, res, next) => {
   }
 });
 
+// Static Folder
+//app.use(express.static('./client/public'));
+
 // Define Routes
 app.use('/api/organizations', require('./routes/api/organizations'));
 app.use('/api/auth', require('./routes/api/auth'));
