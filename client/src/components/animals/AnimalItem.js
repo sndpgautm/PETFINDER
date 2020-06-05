@@ -12,7 +12,7 @@ const AnimalItem = ({
   <div className='animal bg-light'>
     <img
       className='round-img'
-      src={process.env.PUBLIC_URL + '/build/uploads/' + image}
+      src={process.env.PUBLIC_URL + '/uploads/' + image}
       alt=''
     />
     <div>

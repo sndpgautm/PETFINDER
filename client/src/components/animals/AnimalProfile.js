@@ -22,7 +22,7 @@ const AnimalProfile = ({ getAnimal, animal: { animal, loading }, match }) => {
             <div className='animal-top bg-primary p-2'>
               <img
                 className='round-img my-1'
-                src={process.env.PUBLIC_URL + '/build/uploads/' + animal.image}
+                src={process.env.PUBLIC_URL + '/uploads/' + animal.image}
                 alt=''
               />
               <h1 className='large'>{animal.name}</h1>
